@@ -7,9 +7,7 @@
   &__side {
     height: 52rem;
     transition: all .8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
+    @include positioning;
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
